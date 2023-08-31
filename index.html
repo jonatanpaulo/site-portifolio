@@ -4,6 +4,7 @@
     <head>
       <title>Jonatan Paulo</title>
       <link rel="stylesheet" href="styles.css" />
+      <script src="index.js"></script>
     </head>
   </head>
   <body>
@@ -13,11 +14,25 @@
           <div class="barra-navegacao">
             <h2 class="titulo-navegacao">Jonatan Paulo</h2>
             <div>
-              <a class="links-navegacao">Habilidades</a>
-              <a class="links-navegacao">Portifólio</a>
-              <a class="links-navegacao">Experiência</a>
+              <a
+                onclick="onclickScrollTo('section-abilities')"
+                class="links-navegacao"
+                >Habilidades</a
+              >
+              <a
+                class="links-navegacao"
+                onclick="onclickScrollTo('section-portifolio')"
+                >Portifólio</a
+              >
+              <a
+                class="links-navegacao"
+                onclick="onclickScrollTo('section-experiences')"
+                >Experiência</a
+              >
             </div>
-            <button>CONTATO</button>
+            <button onclick="onclickScrollTo('section-contact')">
+              CONTATO
+            </button>
           </div>
           <div class="hero-info">
             <div>
@@ -27,7 +42,9 @@
               <p class="hero-info-subtitle">
                 Programador desde 2023, com foco em desenvolvimento web.
               </p>
-              <button>ENTRAR EM CONTATO</button>
+              <button onclick="onclickScrollTo('section-contact')">
+                ENTRAR EM CONTATO
+              </button>
               <div class="hero-info-icons-container">
                 <a>
                   <img
@@ -68,7 +85,7 @@
             </div>
           </div>
         </section>
-        <section class="section-abilities">
+        <section class="section-abilities" id="section-abilities">
           <h2>Habilidades que</h2>
           <h2 class="verde">domino.</h2>
           <div class="ability-cards-container">
@@ -148,7 +165,7 @@
             </div>
           </div>
         </section>
-        <section class="section-portifolio">
+        <section class="section-portifolio" id="section-portifolio">
           <h2>Portifólio</h2>
           <h2 class="verde">de projetos.</h2>
           <div class="section-portifolio-grid">
@@ -226,36 +243,66 @@
             </div>
           </div>
         </section>
-        <section class="section-experiences">
+        <section class="section-experiences" id="section-experiences">
           <h2>Experiências</h2>
           <h2 class="verde">Profissionais.</h2>
-          <div class="section-experiences-card"> <img class="section-experiences-card-img" src="company/company 1.png" />
+          <div class="section-experiences-card">
+            <img
+              class="section-experiences-card-img"
+              src="company/company 1.png"
+            />
             <div class="section-experiences-card-text-container">
-              <h6 class="section-experiences-card-title">Front-End Developer</h6>
-              <p class="section-experiences-card-subtitle">SevenApps - Agosto de 2018 até o momento</p>
-              <p class="section-experiences-card-text">Desenvolvedor web responsável por criar aplicações de larga escala para os clientes utilizando principalmente a tecnogia React.js.</p>
+              <h6 class="section-experiences-card-title">
+                Front-End Developer
+              </h6>
+              <p class="section-experiences-card-subtitle">
+                SevenApps - Agosto de 2018 até o momento
+              </p>
+              <p class="section-experiences-card-text">
+                Desenvolvedor web responsável por criar aplicações de larga
+                escala para os clientes utilizando principalmente a tecnogia
+                React.js.
+              </p>
             </div>
-            
           </div>
-          <div class="section-experiences-card"> <img class="section-experiences-card-img" src="company/company 1.png" />
+          <div class="section-experiences-card">
+            <img
+              class="section-experiences-card-img"
+              src="company/company 1.png"
+            />
             <div class="section-experiences-card-text-container">
-              <h6 class="section-experiences-card-title">Freelancer - Desenvolvedor FullStack</h6>
-              <p class="section-experiences-card-subtitle">BestBarbers - Agosto de 2020 até Março de 2022</p>
-              <p class="section-experiences-card-text">Desenvolvedor web responsável por criar aplicações de larga escala para os clientes utilizando principalmente a tecnogia React.js.</p>
+              <h6 class="section-experiences-card-title">
+                Freelancer - Desenvolvedor FullStack
+              </h6>
+              <p class="section-experiences-card-subtitle">
+                BestBarbers - Agosto de 2020 até Março de 2022
+              </p>
+              <p class="section-experiences-card-text">
+                Desenvolvedor web responsável por criar aplicações de larga
+                escala para os clientes utilizando principalmente a tecnogia
+                React.js.
+              </p>
             </div>
-            
           </div>
         </section>
-        <section class="section-contact">
+        <section class="section-contact" id="section-contact">
           <h2>como posso</h2>
           <h2 class="verde">te ajudar ?</h2>
           <p>Estou à disposição para ajudar o seu projeto ou sua empresa</p>
           <div class="section-contact-item">
-            <img class="section-contact-item-icon" src="icons/email.png" alt="E-mail icon" />
+            <img
+              class="section-contact-item-icon"
+              src="icons/email.png"
+              alt="E-mail icon"
+            />
             <p>jonatan.paulo@hotmail.com</p>
           </div>
           <div class="section-contact-item">
-            <img class="section-contact-item-icon" src="icons/fone.png" alt="Fone icon" />
+            <img
+              class="section-contact-item-icon"
+              src="icons/fone.png"
+              alt="Fone icon"
+            />
             <p>(82) 99661-6469</p>
           </div>
         </section>
