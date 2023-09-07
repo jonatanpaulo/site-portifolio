@@ -7,6 +7,10 @@ The main goal is create a website with my professional information.
 
 <img src="https://github.com/jonatanpaulo/site-portifolio/blob/main/previw.png" height="500"/>
 
+## Live link: 
+
+https://jonatanpaulo.github.io/site-portifolio/
+
 ## Main concepts appLied
 
 - Flexbox
