@@ -1,5 +1,23 @@
 @media only screen and (max-device-width: 450px) {
   h1 {
+    text-align: center;
+  }
+
+  h2 {
+    line-height: 68px;
+    font-size: 64px;
+  }
+
+  h5 {
+   font-size: 36px;
+   
+  }
+
+  p.card {
+    font-size: 28px;
+    margin-top: 12px;
+    text-align: center;
+    max-width: 70%;
   }
 
   button {
@@ -10,8 +28,8 @@
   }
 
   .content-container {
-    width: 96vw;
-    max-width: 96vw;
+    width: 94vw;
+    max-width: 94vw;
   }
 
   .barra-navegacao {
@@ -68,9 +86,20 @@
   }
 
   .ability-cards-container {
-    row-gap: 36px;
-    grid-template-columns: auto;
-    margin-top: 12px;
+    row-gap: 55px;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    margin-top: 44px;
+    width: 100%;
+  }
+
+  .ability-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 44vw;
+    height: auto;
+    padding-top: 16px;
   }
 
   .section-portifolio-grid {
@@ -96,5 +125,11 @@
   .hero-info-icons-container {
     margin-top: 40px;
     width: 60%;
+  }
+
+  .section-abilities {
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
   }
 }
